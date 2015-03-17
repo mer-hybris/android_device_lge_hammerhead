@@ -322,6 +322,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # Camera configuration
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.camera.shutter.disable=1 \
     camera.disable_zsl_mode=1
 
 # Input resampling configuration
